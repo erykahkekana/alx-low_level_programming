@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - function that takes a pointer to an int
- * pdates the value it points to to 98
- * @n: input
- * Return: n
+ * main - Entry Point
+ *
+ * Return: Always 0
  */
 int main(void)
 {
@@ -16,5 +15,6 @@ int main(void)
 	*ptn = 98;
 
 		printf("n = %i\n", n);
+	return (0);
 }
 
