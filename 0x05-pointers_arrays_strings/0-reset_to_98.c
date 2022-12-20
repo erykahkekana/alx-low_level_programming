@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - function that takes a pointer to an int
+ * main - function that takes a pointer to an int
  * pdates the value it points to to 98
  * @n: input
  * Return: n
@@ -15,6 +15,6 @@ int main(void)
 
 	*ptn = 98;
 
-		printf("n = %i\n, n);
+		printf("n = %i\n", n);
 }
 
