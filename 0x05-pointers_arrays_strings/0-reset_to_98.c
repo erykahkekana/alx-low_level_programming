@@ -1,20 +1,11 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - Entry Point
- *
- * Return: Always 0
- */
-int main(void)
+*reset_to_98 - function takes pointer to int as parameter
+*updates value it points to 98
+*@n: input
+*Return: n
+*/
+void reset_to_98(int *n)
 {
-	int n = 1;
-
-	int *ptn = &n;
-
-	*ptn = 98;
-
-		printf("n = %i\n", n);
-	return (0);
+	*n = 98;
 }
-
