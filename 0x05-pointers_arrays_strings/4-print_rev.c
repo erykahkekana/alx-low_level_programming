@@ -10,7 +10,7 @@ void print_rev(char *s)
 	for (int i = 0; i < 10; i++)
 	{
 		printf("%i\n", *s);
-		p--;
+		s--;
 	}
 }
 
