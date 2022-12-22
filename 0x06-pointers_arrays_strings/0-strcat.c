@@ -7,15 +7,12 @@
  * return: pointer to @dest
  */
 char *_strcat(char *dest, char *src)
-{
-	int idx = 0, dest_len = 0;
+{ 
+	char src;
+	char dest;
 
-	while (dest[idx++])
-		dest_len++;
+	strncat(dest, src);
 
-	for (idx = 0; src[index];index++)
-		dest[dest_len++] = src[idx];
-
-	return (dest);
+	return 0;
 }
 
