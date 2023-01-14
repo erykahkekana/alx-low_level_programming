@@ -1,6 +1,12 @@
 #include <stdio.h>
-/**program prints all arguments it recieves
+#include "main.h"
+
+/**
+ * main - program prints all arguments it recieves
  * one argument per line
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -9,4 +15,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
+	return (0);
 }
