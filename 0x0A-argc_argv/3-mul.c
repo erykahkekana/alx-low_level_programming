@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
-/**program multiplies two numbers
+/**
+ * _atoi - program multiplies two numbers
  * print result followed by a new line
  * integers
  * print error if program doesnt receive two arguments followed by new li
+ * @s: string to be converted
  * Return: 1
  */
 
