@@ -10,7 +10,7 @@ void print_numbers(const char *separator, const unsigned int n, ...){
 
 	for (index = 0; index < n; index++)
 	{
-		printf("%d\n" va_arg(printnums, int);
+		printf("%d\n" va_arg(printnums, int));
 
 		if (index != (n - 1) && separator != NULL)
 		printf("%s", separator);
